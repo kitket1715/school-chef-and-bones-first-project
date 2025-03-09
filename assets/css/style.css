@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Moon+Dance&display=swap');
+/*------------------------------------------------ Colours */
+.bg-color-name-title {
+    background-image: url(../images/aaa.jpg);
+    background-size: 990px 300px;
+    background-repeat: no-repeat;
+}
+.ui-menu-color-home{
+    background-color: #c28a1aee;
+}
+.ui-menu-color-mystorie{
+    background-color: #474444;
+}
+.ui-menu-color-menus{
+    background-color: #990000;
+}
+.ui-menu-color-contact{
+    background-color: #683475;
+}
+/*--------------------------------------------- Heading */
+
+header{
+    margin: 0;
+
+}
+
+
+.heading{
+    margin-left: 20px;
+}
+
+
+.logo {
+    background: url(../images/logo.jpg);
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 75px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    animation: rotate 5s linear infinite;
+    
+}
+.name{
+    font-family:"Italianno", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    margin-top: 65px;
+    color:#921111;
+
+}
+
+.title{
+    font-family:"Italianno", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 5px;
+    color: #723e60;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav li{
+font-size: 14px;
+padding: 0;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #270303;
+    height: 120px;
+}
+
+.menuitem a i {
+padding-top: 25px;
+display: block;
+color: #450505;
+font-size: 25px;
+}
+
+.menuitem span{
+    display:block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family:"Italianno", cursive;
+}
+
+
+/*-------------------------- Keyframes */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
