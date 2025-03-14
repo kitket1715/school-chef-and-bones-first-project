@@ -2,8 +2,12 @@
 /*------------------------------------------------ Colours */
 .bg-color-name-title {
     background-image: url(../images/aaa.jpg);
-    background-size: 990px 300px;
+    background-size: 990px 250px;
     background-repeat: no-repeat;
+}
+
+.bg-color-my-reasons {
+    background-color: #990000;
 }
 .ui-menu-color-home{
     background-color: #c28a1aee;
@@ -17,6 +21,53 @@
 .ui-menu-color-contact{
     background-color: #683475;
 }
+
+/*--------------------------------------------- Special paddings/margings/text */
+
+h1,
+h2,
+h3,
+h4,{
+    margin: 0;
+
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: 'Moon Dance', cursive;
+    font-weight: 900;
+    font-size: 20px;
+    color: #570202;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.inline-block{
+    display: inline-block;
+    color: #6e0202;
+}
+
+.row-table{
+    display: table;
+
+}
+.section-column {
+    display: table-cell;
+    padding: 30px 30px;
+    float: none;
+}
+.section-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
 /*--------------------------------------------- Heading */
 
 header{
@@ -45,10 +96,10 @@ header{
 .name{
     font-family:"Italianno", cursive;
     font-style: normal;
-    font-weight: 400;
-    font-size: 66px;
-    margin-top: 65px;
-    color:#921111;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 80px;
+    color:#750e0e;
 
 }
 
@@ -103,6 +154,56 @@ font-size: 25px;
     font-weight: 600;
     letter-spacing: 2px;
     font-family:"Italianno", cursive;
+}
+
+/*--------------------------------------------- Footer */
+
+footer {
+background-image: url(../images/fffff.JPG);
+background-size: 1500px 200px;
+background-repeat: no-repeat;   
+min-height: 120px;
+}
+.recipie-pdf i{
+    font-size: 18px;
+    color: #450505;
+    text-align: center;
+    padding-left: 5px ;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.recipie-pdf i:hover{
+    color: #921111;
+}
+.social-links {
+    padding-bottom: 15px ;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #450505;
+    background-color: #6e0202;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i :hover{
+    color: #921111;
+}
+
+#footer-details{
+    padding: 20px;
+
 }
 
 
