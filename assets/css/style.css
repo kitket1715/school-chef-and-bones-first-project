@@ -1,33 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Italianno&family=Lobster&family=Moon+Dance&display=swap');
+
 /*------------------------------------------------ Colours */
 .bg-color-name-title {
-    background-image: url(../images/aaa.jpg);
-    background-size: 990px 250px;
-    background-repeat: no-repeat;
+    background-color: transparent;
 }
-
 .bg-color-my-reasons {
-    background-color: #990000;
-}
+    background-image: url(../images/nzvvnc\ n.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
 .ui-menu-color-home{
-    background-color: #c28a1aee;
+    background-color: black;
 }
-.ui-menu-color-mystorie{
-    background-color: #474444;
+.ui-menu-color-gallery{
+    background-color: black;
 }
 .ui-menu-color-menus{
-    background-color: #990000;
+    background-color: black;
 }
 .ui-menu-color-contact{
-    background-color: #683475;
+    background-color: black;
 }
-
+.color-letter{
+    color: #f1eeec;
+}
 /*--------------------------------------------- Special paddings/margings/text */
 
 h1,
 h2,
 h3,
-h4,{
+h4{
     margin: 0;
 
 }
@@ -37,10 +40,10 @@ h4,{
 }
 
 .general-sub{
-    font-family: 'Moon Dance', cursive;
+    font-family: "Italianno", cursive;
     font-weight: 900;
-    font-size: 20px;
-    color: #570202;
+    font-size: 25px;
+    color: #6e0202;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -48,7 +51,7 @@ h4,{
 
 .inline-block{
     display: inline-block;
-    color: #6e0202;
+    color: #800606;
 }
 
 .row-table{
@@ -57,12 +60,14 @@ h4,{
 }
 .section-column {
     display: table-cell;
-    padding: 30px 30px;
+    padding:0  30px 30px;
     float: none;
 }
 .section-heading {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 300;
+    font-family: "Italianno", cursive;
+    font-weight: 500;
+    color: #c40a0a;
+    font-size: 90px;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -80,36 +85,56 @@ header{
     margin-left: 20px;
 }
 
+.logo-background{
+    background-image: url(../images/head\ aaaa.JPG);
+    background-size: 1500px 390px;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
 
-.logo {
+.logo  {
     background: url(../images/logo.jpg);
     background-position: 25% 75%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100px 150px;
+    position: static ;
+    width: 100px;
+    left: auto;
+    top: auto;
+    right: auto;
     min-height: 75px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     animation: rotate 5s linear infinite;
     
+     
+    
 }
 .name{
     font-family:"Italianno", cursive;
     font-style: normal;
     font-weight: 600;
-    font-size: 70px;
+    word-spacing: 10px;
+    font-size: 85px;
     margin-top: 80px;
-    color:#750e0e;
+    color:#ca3f08;
+    text-align: center;
 
 }
 
 .title{
     font-family:"Italianno", cursive;
     font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
+    word-spacing: 10px;
+    font-weight: 900;
+    font-size: 42px;
     margin-top: 5px;
-    color: #723e60;
+    color: #efeae8;
+    
+    text-align: center;
 }
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -133,15 +158,18 @@ padding: 0;
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #270303;
+    color: #a02323;
+    
     height: 120px;
 }
 
 .menuitem a i {
 padding-top: 25px;
 display: block;
-color: #450505;
-font-size: 25px;
+color: #42064b;
+
+font-size: 35px;
+font-weight: 800;
 }
 
 .menuitem span{
@@ -150,16 +178,30 @@ font-size: 25px;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 23px;
+    font-weight: 1000;
     letter-spacing: 2px;
-    font-family:"Italianno", cursive;
+    font-family: "Moon Dance", cursive;
+    
+    
+}
+/*--------------------------------------------- Gallery section*/
+#photo{
+    clear:both;
+    line-height: 0;
+    column-count:4;
+    column-gap: 0;
+
+}
+#photo img {
+    width: 100%;
+    height: auto;
 }
 
 /*--------------------------------------------- Footer */
 
 footer {
-background-image: url(../images/fffff.JPG);
+background-image: url(../images/footer\ fff.JPG);
 background-size: 1500px 200px;
 background-repeat: no-repeat;   
 min-height: 120px;
@@ -205,7 +247,118 @@ min-height: 120px;
     padding: 20px;
 
 }
+/*--------------------------------------------- Three Reasons */
+.three-reasons-icon{
+    font-size: 26px;
+    font-weight: 500;
+    color: #fa0404;
+    margin-top: 25px;
+    
+}
+.three-reasons-heading{
+    font-family: "Italianno", cursive; ;
+    font-weight: 600;
+    word-spacing: 10px;
+    color: #6c0404;
+    background-color: black;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
 
+.font-design{
+    font-family:"moon dance", cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #750b07;
+    background-color: black;
+    background-size: contain;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3px;
+    margin-right: 13px;
+    padding: 0;
+}
+/*--------------------------------------------- Menu */
+.color-letter-1{
+    color: #e9e5e3;
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;  
+    margin-right: 225px ;
+}
+.notes-letters{
+    color: #e9e5e3;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: auto;
+}
+#menu-item-image{
+    width: 15%;
+}
+.menu-img{
+text-align: bottom;
+font-size: 35px;
+position: relative;
+display: block;
+width: 50%;
+height: auto;
+margin: 0 auto;
+padding: 0;
+}
+
+.recipie-pdf-2 i{
+    font-size: 18px;
+    color: #f4ebeb;
+    text-align: center;
+    padding-left: 5px ;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.recipie-pdf-2 i:hover{
+    color: #921111;
+}
+/*--------------------------------------------- Contact form */
+.contact-heading{
+    font-family: "Italianno", cursive;
+    font-weight: 600;
+    word-spacing: 10px;
+    color: #efeaea;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.lower-heading{
+    font-family: "Italianno", cursive;
+    font-weight: 600;
+    word-spacing: 10px;
+    color: #efeaea;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form{
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+   
+}
+button[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 /*-------------------------- Keyframes */
 @keyframes rotate {
@@ -215,4 +368,102 @@ min-height: 120px;
     100% {
         transform: rotate(360deg);
     }
+}
+
+/*-------------------------- Media Size*/
+
+@media screen and (max-width: 768px){
+    .name{
+        font-size: 50px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .section-heading{
+        font-size: 50px;
+    }
+    .general-sub{
+        font-size: 20px;
+    }
+    .three-reasons-heading{
+        font-size: 30px;
+    }
+    .font-design{
+        font-size: 20px;
+    }
+    .menuitem a i{
+        font-size: 25px;
+    }
+    .menuitem span{
+        font-size: 15px;
+    }
+    .social-links li a i{
+        font-size: 10px;
+    }
+    .recipie-pdf i{
+        font-size: 10px;
+    }
+    .heading{
+        margin-left: 0;
+    }
+    .logo-background{
+        background-size: 1000px 390px;
+    }
+    .logo{
+        background-size: 80px 120px;
+    }
+    .section-column{
+        padding: 0 10px 10px;
+    }
+    .section-heading{
+        font-size: 50px;
+    }
+    .general-sub{
+        font-size: 20px;
+    }
+    .font-design{
+        font-size: 20px;
+    }
+    .menuitem a i{
+        font-size: 25px;
+    }
+    .menuitem span{
+        font-size: 15px;
+    }
+    .social-links li a i{
+        font-size: 10px;
+    }
+    .recipie-pdf i{
+        font-size: 10px;
+    }
+    .heading{
+        margin-left: 0;
+    }
+    .logo-background{
+        background-size: 1000px 390px;
+    }
+    .logo{
+        background-size: 80px 120px;
+    }
+    .section-column{
+        padding: 0 10px 10px;
+    }
+    .section-heading{
+        font-size: 50px;
+    }
+    .general-sub{
+        font-size: 20px;
+    }
+    .font-design{
+        font-size: 20px;
+    }
+    .menuitem a i{
+        font-size: 25px;
+    }
+    .menuitem span{
+        font-size: 15px;
+    }
+#photo{
+    column-count: 2;
+}
 }
